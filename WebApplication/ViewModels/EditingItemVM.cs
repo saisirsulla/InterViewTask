@@ -1,0 +1,17 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using WebApplication.Models;
+
+namespace WebApplication.ViewModels
+{
+    public class EditingItemVM
+    {
+        public int Id { get; set; }
+        public string ItemDescription { get; set; }
+        public int ItemGroup { get; set; }
+        public List<ItemGroup> ItemGroupList { get; set; }
+        //public bool SelectedValue { get; set; }
+    }
+}
